@@ -1,4 +1,3 @@
-
 try {
     const testAddon = require('./build/Release/testaddon.node');
     console.log(testAddon.key)
@@ -6,5 +5,5 @@ try {
 catch(err) {
     console.log("Module not found. Try the below mentioned steps:");
     console.log("1. Run 'npm run build' to compile the c++ addon");
-    console.log("2. Run 'node app.js'");
+    console.log("2. Run 'npm start'");
 }
